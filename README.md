@@ -114,7 +114,7 @@ You have two options to schedule your script to run every 30 minutes:
 
 If you are already using APScheduler, you can modify your main.py script to run every 30 minutes.
 
-```
+```Python
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 def job():
